@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		D31FDD112CA3515D00A08F5C /* EmpleadosVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31FDD102CA3515D00A08F5C /* EmpleadosVM.swift */; };
+		D3B67E8F2CA4080C00C0D2B1 /* NetworkStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B67E8E2CA4080C00C0D2B1 /* NetworkStatus.swift */; };
+		D3B67E922CA414BF00C0D2B1 /* UnavailableNetworl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B67E912CA414BF00C0D2B1 /* UnavailableNetworl.swift */; };
+		D3B67E942CA42E9200C0D2B1 /* testEmpleados.json in Resources */ = {isa = PBXBuildFile; fileRef = D3B67E932CA42E9200C0D2B1 /* testEmpleados.json */; };
+		D3B67E962CA42EE900C0D2B1 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B67E952CA42EE900C0D2B1 /* PreviewData.swift */; };
+		D3B67E982CA4300E00C0D2B1 /* PreviewViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B67E972CA4300E00C0D2B1 /* PreviewViews.swift */; };
+		D3B67E9B2CA45C0B00C0D2B1 /* EmpleadoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B67E9A2CA45C0B00C0D2B1 /* EmpleadoRow.swift */; };
+		D3B67E9D2CA45FF600C0D2B1 /* NavigationCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B67E9C2CA45FF600C0D2B1 /* NavigationCustom.swift */; };
+		D3B67E9F2CA4622B00C0D2B1 /* AddToolbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B67E9E2CA4622B00C0D2B1 /* AddToolbarButton.swift */; };
+		D3B67EA12CA463FA00C0D2B1 /* AlertaCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B67EA02CA463FA00C0D2B1 /* AlertaCustom.swift */; };
+		D3B67EA32CA4661F00C0D2B1 /* EditEmpleado.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B67EA22CA4661F00C0D2B1 /* EditEmpleado.swift */; };
+		D3B67EA52CA46A7D00C0D2B1 /* EditEmpleadoVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B67EA42CA46A7D00C0D2B1 /* EditEmpleadoVM.swift */; };
+		D3B67EA92CA4AD5A00C0D2B1 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B67EA82CA4AD5A00C0D2B1 /* TextField.swift */; };
 		D3C5977B2BF60F6E00BEE674 /* MiEmpleadosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5977A2BF60F6E00BEE674 /* MiEmpleadosApp.swift */; };
 		D3C5977D2BF60F6E00BEE674 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5977C2BF60F6E00BEE674 /* ContentView.swift */; };
 		D3C5977F2BF60F7000BEE674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C5977E2BF60F7000BEE674 /* Assets.xcassets */; };
@@ -26,6 +38,18 @@
 
 /* Begin PBXFileReference section */
 		D31FDD102CA3515D00A08F5C /* EmpleadosVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpleadosVM.swift; sourceTree = "<group>"; };
+		D3B67E8E2CA4080C00C0D2B1 /* NetworkStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStatus.swift; sourceTree = "<group>"; };
+		D3B67E912CA414BF00C0D2B1 /* UnavailableNetworl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnavailableNetworl.swift; sourceTree = "<group>"; };
+		D3B67E932CA42E9200C0D2B1 /* testEmpleados.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = testEmpleados.json; sourceTree = "<group>"; };
+		D3B67E952CA42EE900C0D2B1 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		D3B67E972CA4300E00C0D2B1 /* PreviewViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViews.swift; sourceTree = "<group>"; };
+		D3B67E9A2CA45C0B00C0D2B1 /* EmpleadoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpleadoRow.swift; sourceTree = "<group>"; };
+		D3B67E9C2CA45FF600C0D2B1 /* NavigationCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCustom.swift; sourceTree = "<group>"; };
+		D3B67E9E2CA4622B00C0D2B1 /* AddToolbarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToolbarButton.swift; sourceTree = "<group>"; };
+		D3B67EA02CA463FA00C0D2B1 /* AlertaCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertaCustom.swift; sourceTree = "<group>"; };
+		D3B67EA22CA4661F00C0D2B1 /* EditEmpleado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEmpleado.swift; sourceTree = "<group>"; };
+		D3B67EA42CA46A7D00C0D2B1 /* EditEmpleadoVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEmpleadoVM.swift; sourceTree = "<group>"; };
+		D3B67EA82CA4AD5A00C0D2B1 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		D3C597772BF60F6E00BEE674 /* MiEmpleados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiEmpleados.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C5977A2BF60F6E00BEE674 /* MiEmpleadosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiEmpleadosApp.swift; sourceTree = "<group>"; };
 		D3C5977C2BF60F6E00BEE674 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,8 +82,29 @@
 			isa = PBXGroup;
 			children = (
 				D31FDD102CA3515D00A08F5C /* EmpleadosVM.swift */,
+				D3B67EA42CA46A7D00C0D2B1 /* EditEmpleadoVM.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D3B67E902CA4147100C0D2B1 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				D3B67E912CA414BF00C0D2B1 /* UnavailableNetworl.swift */,
+				D3B67E9C2CA45FF600C0D2B1 /* NavigationCustom.swift */,
+				D3B67E9E2CA4622B00C0D2B1 /* AddToolbarButton.swift */,
+				D3B67EA02CA463FA00C0D2B1 /* AlertaCustom.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		D3B67E992CA45BF000C0D2B1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D3B67E9A2CA45C0B00C0D2B1 /* EmpleadoRow.swift */,
+				D3B67EA82CA4AD5A00C0D2B1 /* TextField.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		D3C5976E2BF60F6E00BEE674 = {
@@ -83,6 +128,9 @@
 			children = (
 				D3C5977A2BF60F6E00BEE674 /* MiEmpleadosApp.swift */,
 				D3C5977C2BF60F6E00BEE674 /* ContentView.swift */,
+				D3B67EA22CA4661F00C0D2B1 /* EditEmpleado.swift */,
+				D3B67E992CA45BF000C0D2B1 /* Components */,
+				D3B67E902CA4147100C0D2B1 /* Modifiers */,
 				D31FDD0F2CA3512E00A08F5C /* ViewModels */,
 				D3D823772BFDFBDF00BFF546 /* Interactor */,
 				D3D823362BFB474800BFF546 /* Interface */,
@@ -96,7 +144,10 @@
 		D3C597802BF60F7000BEE674 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				D3B67E932CA42E9200C0D2B1 /* testEmpleados.json */,
 				D3C597812BF60F7000BEE674 /* Preview Assets.xcassets */,
+				D3B67E952CA42EE900C0D2B1 /* PreviewData.swift */,
+				D3B67E972CA4300E00C0D2B1 /* PreviewViews.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -120,6 +171,7 @@
 				D3D823712BFDF0A500BFF546 /* NetworkError.swift */,
 				D3D823732BFDF1C800BFF546 /* URLSession.swift */,
 				D3D823752BFDF56300BFF546 /* NetworkInteractor.swift */,
+				D3B67E8E2CA4080C00C0D2B1 /* NetworkStatus.swift */,
 			);
 			name = Interface;
 			sourceTree = "<group>";
@@ -191,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3C597822BF60F7000BEE674 /* Preview Assets.xcassets in Resources */,
+				D3B67E942CA42E9200C0D2B1 /* testEmpleados.json in Resources */,
 				D3C5977F2BF60F7000BEE674 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,18 +256,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3D823332BFB3CD200BFF546 /* Model.swift in Sources */,
+				D3B67E982CA4300E00C0D2B1 /* PreviewViews.swift in Sources */,
+				D3B67EA12CA463FA00C0D2B1 /* AlertaCustom.swift in Sources */,
+				D3B67EA92CA4AD5A00C0D2B1 /* TextField.swift in Sources */,
 				D3D823312BFB3CB300BFF546 /* EnumsModel.swift in Sources */,
 				D3D823792BFDFBFC00BFF546 /* Network.swift in Sources */,
 				D3D823742BFDF1C800BFF546 /* URLSession.swift in Sources */,
 				D3D823762BFDF56300BFF546 /* NetworkInteractor.swift in Sources */,
 				D3D823352BFB3DCF00BFF546 /* ApiPostModel.swift in Sources */,
+				D3B67E922CA414BF00C0D2B1 /* UnavailableNetworl.swift in Sources */,
+				D3B67E8F2CA4080C00C0D2B1 /* NetworkStatus.swift in Sources */,
+				D3B67EA52CA46A7D00C0D2B1 /* EditEmpleadoVM.swift in Sources */,
+				D3B67E962CA42EE900C0D2B1 /* PreviewData.swift in Sources */,
 				D3D823382BFB478F00BFF546 /* URL.swift in Sources */,
 				D3C5977D2BF60F6E00BEE674 /* ContentView.swift in Sources */,
 				D3D8232F2BFB3ADF00BFF546 /* APIModel.swift in Sources */,
 				D3D823722BFDF0A500BFF546 /* NetworkError.swift in Sources */,
 				D3C5977B2BF60F6E00BEE674 /* MiEmpleadosApp.swift in Sources */,
+				D3B67EA32CA4661F00C0D2B1 /* EditEmpleado.swift in Sources */,
+				D3B67E9B2CA45C0B00C0D2B1 /* EmpleadoRow.swift in Sources */,
 				D3D823702BFDEC6C00BFF546 /* URLRequest.swift in Sources */,
+				D3B67E9F2CA4622B00C0D2B1 /* AddToolbarButton.swift in Sources */,
 				D31FDD112CA3515D00A08F5C /* EmpleadosVM.swift in Sources */,
+				D3B67E9D2CA45FF600C0D2B1 /* NavigationCustom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

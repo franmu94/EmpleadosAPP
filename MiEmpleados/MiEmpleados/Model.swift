@@ -15,7 +15,13 @@ struct Empleado: Identifiable, Hashable {
     let username: String
     let address: String
     let zipcode: String
-//    let avatar: URL?
+    let avatar: URL?
     let department: DptoName
     let gender: Gender
+}
+
+extension Empleado {
+    var fullName: String {
+        "\(lastName), \(firstName)"
+    }
 }

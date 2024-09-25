@@ -8,17 +8,34 @@
 import SwiftUI
 
 struct ContentView: View {
-    @ObservedObject var vm = EmpleadosVM()
+    
+    @EnvironmentObject var vm: EmpleadosVM
     var body: some View {
-        List {
-            ForEach(vm.empleados) { empleado in
-                Text(empleado.firstName)
+        NavigationStack {
+            ScrollView {
+                LazyVStack {
+                    ForEach(Array(vm.empleados.enumerated()), id: \.offset) { index, empleado in
+                        NavigationLink(value: empleado){
+                            EmpleadoRow(empleado: empleado, index: index)
+                        }
+                        .buttonStyle(.plain)
+                    }
+                }
+                //.padding()
+            }
+            .navigationDestination(for: Empleado.self) { empleado in
+                EditEmpleadoView(editVM: EditEmpleadosVM(empleado: empleado))
+            }
+            .customNavBar(title: "Employees List")
+            .addToolBarButton {
+                print("me pulsó")
             }
         }
-        .alert("Network Error", isPresented: $vm.showAlert) {} message: {Text(vm.errorMsg)}
+        .customAlert(message: vm.errorMsg, showCustom: $vm.showAlert)
     }
 }
 
 #Preview {
     ContentView()
+        .environmentObject(EmpleadosVM(interactor: DataTestPreview()))
 }

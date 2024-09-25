@@ -10,7 +10,7 @@ import Foundation
 struct EmpleadoDTO: Codable {
     let id: Int
     let department: DepartmentDTO
-   // let avatar: URL
+    let avatar: URL?
     let address, zipcode: String
     let gender: GenderDTO
     let firstName, email, lastName: String
@@ -36,7 +36,7 @@ extension EmpleadoDTO {
                  username: username,
                  address: address,
                  zipcode: zipcode,
-//                 avatar: avatar,
+                 avatar: avatar,
                  department: department.name,
                  gender: gender.gender)
     }

@@ -1,0 +1,218 @@
+[
+    {
+        "firstName": "Nowell",
+        "lastName": "Cochet",
+        "id": 24,
+        "username": "ncochetn",
+        "zipcode": "38030 CEDEX 2",
+        "email": "ncochetn@typepad.com",
+        "address": "53841 Elka Alley",
+        "avatar": "https://robohash.org/doloresteneturvero.png",
+        "gender": {
+            "id": 1,
+            "gender": "Male"
+        },
+        "department": {
+            "id": 7,
+            "name": "Product Management"
+        }
+    },
+    {
+        "firstName": "Costa",
+        "lastName": "Kighly",
+        "id": 25,
+        "username": "ckighlyo",
+        "zipcode": "33060 CEDEX",
+        "email": "ckighlyo@ask.com",
+        "address": "97 Transport Crossing",
+        "avatar": "https://robohash.org/autconsequaturofficia.png",
+        "gender": {
+            "id": 1,
+            "gender": "Male"
+        },
+        "department": {
+            "id": 12,
+            "name": "Training"
+        }
+    },
+    {
+        "firstName": "Raddie",
+        "lastName": "Delue",
+        "id": 26,
+        "username": "rdeluep",
+        "zipcode": "",
+        "email": "rdeluep@dell.com",
+        "address": "814 Sunnyside Street",
+        "avatar": "https://robohash.org/facereblanditiisquam.png",
+        "gender": {
+            "id": 1,
+            "gender": "Male"
+        },
+        "department": {
+            "id": 8,
+            "name": "Research and Development"
+        }
+    },
+    {
+        "firstName": "Currie",
+        "lastName": "Thunnercliff",
+        "id": 28,
+        "username": "cthunnercliffr",
+        "zipcode": "",
+        "email": "cthunnercliffr@theatlantic.com",
+        "address": "2 Summit Trail",
+        "avatar": "https://robohash.org/ipsamdoloribusaccusamus.png",
+        "gender": {
+            "id": 1,
+            "gender": "Male"
+        },
+        "department": {
+            "id": 11,
+            "name": "Support"
+        }
+    },
+    {
+        "firstName": "Mickey",
+        "lastName": "Engall",
+        "id": 29,
+        "username": "mengalls",
+        "zipcode": "",
+        "email": "mengalls@unesco.org",
+        "address": "3251 Shopko Alley",
+        "avatar": "https://robohash.org/beataevelitnam.png",
+        "gender": {
+            "id": 1,
+            "gender": "Male"
+        },
+        "department": {
+            "id": 3,
+            "name": "Engineering"
+        }
+    },
+    {
+        "firstName": "Ragnar",
+        "lastName": "Rosenbloom",
+        "id": 30,
+        "username": "rrosenbloomt",
+        "zipcode": "74193",
+        "email": "rrosenbloomt@pagesperso-orange.fr",
+        "address": "0917 Sherman Alley",
+        "avatar": "https://robohash.org/utsitarchitecto.png",
+        "gender": {
+            "id": 1,
+            "gender": "Male"
+        },
+        "department": {
+            "id": 2,
+            "name": "Business Development"
+        }
+    },
+    {
+        "firstName": "Woodie",
+        "lastName": "Ponnsett",
+        "id": 34,
+        "username": "wponnsettx",
+        "zipcode": "691 21",
+        "email": "wponnsettx@arizona.edu",
+        "address": "6373 Waxwing Drive",
+        "avatar": "https://robohash.org/occaecatiquierror.png",
+        "gender": {
+            "id": 1,
+            "gender": "Male"
+        },
+        "department": {
+            "id": 10,
+            "name": "Services"
+        }
+    },
+    {
+        "firstName": "Annabal",
+        "lastName": "Bunkle",
+        "id": 36,
+        "username": "abunklez",
+        "zipcode": "J8B",
+        "email": "abunklez@google.co.uk",
+        "address": "23 Stoughton Pass",
+        "avatar": "https://robohash.org/inventorenamquidem.png",
+        "gender": {
+            "id": 2,
+            "gender": "Female"
+        },
+        "department": {
+            "id": 5,
+            "name": "Legal"
+        }
+    },
+    {
+        "firstName": "Salvador",
+        "lastName": "Radoux",
+        "id": 40,
+        "username": "sradoux13",
+        "zipcode": "",
+        "email": "sradoux13@topsy.com",
+        "address": "048 Mendota Terrace",
+        "avatar": "https://robohash.org/siteosut.png",
+        "gender": {
+            "id": 1,
+            "gender": "Male"
+        },
+        "department": {
+            "id": 4,
+            "name": "Human Resources"
+        }
+    },
+    {
+        "firstName": "Dorotea",
+        "lastName": "Gilberta",
+        "id": 27,
+        "username": "dgilderq",
+        "zipcode": "",
+        "email": "dgilderq@stanford.edu",
+        "address": "504 Delaware Point",
+        "avatar": "https://robohash.org/etmagnirerum.png",
+        "gender": {
+            "id": 2,
+            "gender": "Female"
+        },
+        "department": {
+            "id": 9,
+            "name": "Sales"
+        }
+    },
+    {
+        "firstName": "Dreddy",
+        "lastName": "Aberdalgy",
+        "id": 49,
+        "username": "daberdalgy1c",
+        "zipcode": "3912",
+        "email": "daberdalgy1c@feedburner.com",
+        "address": "65988 Drewry Junction",
+        "avatar": "https://robohash.org/atquemagnamet.png",
+        "gender": {
+            "id": 2,
+            "gender": "Female"
+        },
+        "department": {
+            "id": 6,
+            "name": "Marketing"
+        }
+    },
+    {
+        "firstName": "Paco Jos\u00e9op",
+        "lastName": "Pepi\u00f1o M\u00e1rquez",
+        "id": 1020,
+        "username": "",
+        "zipcode": "11111",
+        "email": "franciscopepe@gmail.com",
+        "address": "",
+        "avatar": "https://robohash.org/enimsolutaperferendis.png",
+        "gender": {
+            "id": 2,
+            "gender": "Female"
+        },
+        "department": {
+            "id": 1,
+            "name": "Accounting"
+        }
+    }
+]
