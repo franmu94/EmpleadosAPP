@@ -20,6 +20,8 @@
 		D3B67EA32CA4661F00C0D2B1 /* EditEmpleado.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B67EA22CA4661F00C0D2B1 /* EditEmpleado.swift */; };
 		D3B67EA52CA46A7D00C0D2B1 /* EditEmpleadoVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B67EA42CA46A7D00C0D2B1 /* EditEmpleadoVM.swift */; };
 		D3B67EA92CA4AD5A00C0D2B1 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B67EA82CA4AD5A00C0D2B1 /* TextField.swift */; };
+		D3B67EAB2CA561BB00C0D2B1 /* SaveToolbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B67EAA2CA561BB00C0D2B1 /* SaveToolbarButton.swift */; };
+		D3B67EAE2CA5688B00C0D2B1 /* AccessibilityHints.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B67EAD2CA5688B00C0D2B1 /* AccessibilityHints.swift */; };
 		D3C5977B2BF60F6E00BEE674 /* MiEmpleadosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5977A2BF60F6E00BEE674 /* MiEmpleadosApp.swift */; };
 		D3C5977D2BF60F6E00BEE674 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C5977C2BF60F6E00BEE674 /* ContentView.swift */; };
 		D3C5977F2BF60F7000BEE674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C5977E2BF60F7000BEE674 /* Assets.xcassets */; };
@@ -50,6 +52,8 @@
 		D3B67EA22CA4661F00C0D2B1 /* EditEmpleado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEmpleado.swift; sourceTree = "<group>"; };
 		D3B67EA42CA46A7D00C0D2B1 /* EditEmpleadoVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEmpleadoVM.swift; sourceTree = "<group>"; };
 		D3B67EA82CA4AD5A00C0D2B1 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		D3B67EAA2CA561BB00C0D2B1 /* SaveToolbarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveToolbarButton.swift; sourceTree = "<group>"; };
+		D3B67EAD2CA5688B00C0D2B1 /* AccessibilityHints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityHints.swift; sourceTree = "<group>"; };
 		D3C597772BF60F6E00BEE674 /* MiEmpleados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiEmpleados.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C5977A2BF60F6E00BEE674 /* MiEmpleadosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiEmpleadosApp.swift; sourceTree = "<group>"; };
 		D3C5977C2BF60F6E00BEE674 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +98,7 @@
 				D3B67E9C2CA45FF600C0D2B1 /* NavigationCustom.swift */,
 				D3B67E9E2CA4622B00C0D2B1 /* AddToolbarButton.swift */,
 				D3B67EA02CA463FA00C0D2B1 /* AlertaCustom.swift */,
+				D3B67EAA2CA561BB00C0D2B1 /* SaveToolbarButton.swift */,
 			);
 			path = Modifiers;
 			sourceTree = "<group>";
@@ -105,6 +110,14 @@
 				D3B67EA82CA4AD5A00C0D2B1 /* TextField.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		D3B67EAC2CA5686F00C0D2B1 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				D3B67EAD2CA5688B00C0D2B1 /* AccessibilityHints.swift */,
+			);
+			path = Strings;
 			sourceTree = "<group>";
 		};
 		D3C5976E2BF60F6E00BEE674 = {
@@ -135,6 +148,7 @@
 				D3D823772BFDFBDF00BFF546 /* Interactor */,
 				D3D823362BFB474800BFF546 /* Interface */,
 				D3D8232D2BFB3AB000BFF546 /* Model */,
+				D3B67EAC2CA5686F00C0D2B1 /* Strings */,
 				D3C5977E2BF60F7000BEE674 /* Assets.xcassets */,
 				D3C597802BF60F7000BEE674 /* Preview Content */,
 			);
@@ -276,6 +290,8 @@
 				D3B67EA32CA4661F00C0D2B1 /* EditEmpleado.swift in Sources */,
 				D3B67E9B2CA45C0B00C0D2B1 /* EmpleadoRow.swift in Sources */,
 				D3D823702BFDEC6C00BFF546 /* URLRequest.swift in Sources */,
+				D3B67EAE2CA5688B00C0D2B1 /* AccessibilityHints.swift in Sources */,
+				D3B67EAB2CA561BB00C0D2B1 /* SaveToolbarButton.swift in Sources */,
 				D3B67E9F2CA4622B00C0D2B1 /* AddToolbarButton.swift in Sources */,
 				D31FDD112CA3515D00A08F5C /* EmpleadosVM.swift in Sources */,
 				D3B67E9D2CA45FF600C0D2B1 /* NavigationCustom.swift in Sources */,
